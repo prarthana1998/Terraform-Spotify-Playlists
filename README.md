@@ -42,6 +42,7 @@ Verify the Playlists in Your Spotify Account!
 
 ## Project Structure
 
+    ```plaintext
 terraform-spotify-playlists/
 │── README.md             # Project documentation
 │── main.tf               # Main Terraform config file
@@ -51,7 +52,6 @@ terraform-spotify-playlists/
 │── terraform.tfvars      # Variable values (DO NOT COMMIT if it contains secrets!)
 │── .gitignore            # Ignore Terraform state and sensitive files
 │── LICENSE               # Open-source license (MIT recommended)
-
 ## Customization
 
 Modify variables.tf to customize playlist names and descriptions.
