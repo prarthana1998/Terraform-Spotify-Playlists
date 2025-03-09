@@ -22,12 +22,11 @@ Before running this project, ensure you have the following:
 ## Installation & Setup
 
 1. **Clone the Repository:**
-
    ```sh
    git clone https://github.com/yourusername/terraform-spotify-playlists.git
    cd terraform-spotify-playlists
 
-2. Configure Your Credentials:
+3. Configure Your Credentials:
 
 Create a .env file or use Terraform variables (terraform.tfvars) to store your Spotify Client ID and Secret.
 
@@ -41,7 +40,6 @@ Create a .env file or use Terraform variables (terraform.tfvars) to store your S
 Verify the Playlists in Your Spotify Account!
 
 ## Project Structure
-
     ```
       terraform-spotify-playlists/
       │── README.md             # Project documentation
@@ -59,13 +57,6 @@ Verify the Playlists in Your Spotify Account!
 Modify variables.tf to customize playlist names and descriptions.
 
 Extend functionality by adding more API interactions (e.g., adding tracks to playlists).
-
-## Cleanup
-
-To remove the created playlists:
-      ```sh
-  
-       terraform destroy -auto-approve
 
 ## Contact
 
