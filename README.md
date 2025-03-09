@@ -42,7 +42,7 @@ Verify the Playlists in Your Spotify Account!
 
 ## Project Structure
 
-    ```plaintext
+    ```
       terraform-spotify-playlists/
       │── README.md             # Project documentation
       │── main.tf               # Main Terraform config file
