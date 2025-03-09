@@ -33,14 +33,14 @@ Create a .env file or use Terraform variables (terraform.tfvars) to store your S
 
 3. Initialize Terraform:
    ```sh
-terraform init
+   terraform init
 
 4. Apply the Configuration (Create Playlists):
     ```sh
-terraform apply
+   terraform apply
 Verify the Playlists in Your Spotify Account!
 
-Project Structure
+## Project Structure
 
 terraform-spotify-playlists/
 │── README.md             # Project documentation
@@ -52,23 +52,20 @@ terraform-spotify-playlists/
 │── .gitignore            # Ignore Terraform state and sensitive files
 │── LICENSE               # Open-source license (MIT recommended)
 
-Customization
+## Customization
 
 Modify variables.tf to customize playlist names and descriptions.
 
 Extend functionality by adding more API interactions (e.g., adding tracks to playlists).
 
-Cleanup
+## Cleanup
 
 To remove the created playlists:
+    ```sh
+  
+    terraform destroy -auto-approve
 
-terraform destroy -auto-approve
-
-License
-
-This project is licensed under the MIT License. Feel free to contribute and improve it!
-
-Contact
+## Contact
 
 If you have any questions, feel free to reach out or open an issue on GitHub.
 
