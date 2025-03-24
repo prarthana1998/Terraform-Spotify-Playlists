@@ -56,7 +56,7 @@ Verify the Playlists in Your Spotify Account!
 
 Modify variables.tf to customize playlist names and descriptions.
 
-Extend functionality by adding more API interactions (e.g., adding tracks to playlists).
+Extend functionality by adding more API interactions (e.g. adding tracks to playlists).
 
 ## Contact
 
